@@ -1,0 +1,159 @@
+# Git Commands
+
+## clone
+Copies a remote repository to your computer.
+
+Example:
+```bash
+git clone <repository-url>
+```
+
+---
+
+## checkout
+Switches branches or restores files.
+
+Example:
+```bash
+git checkout main
+```
+
+---
+
+## -b
+Creates a new branch when used with checkout.
+
+Example:
+```bash
+git checkout -b new-branch
+```
+
+---
+
+## status
+Shows the current state of files in the repository.
+
+Example:
+```bash
+git status
+```
+
+---
+
+## push
+Uploads local commits to GitHub.
+
+Example:
+```bash
+git push
+```
+
+---
+
+## -u
+Sets the upstream branch when pushing.
+
+Example:
+```bash
+git push -u origin main
+```
+
+---
+
+## pull
+Downloads changes from GitHub and merges them.
+
+Example:
+```bash
+git pull
+```
+
+---
+
+## add
+Stages files for commit.
+
+Example:
+```bash
+git add file.txt
+```
+
+---
+
+## commit
+Saves staged changes to the repository history.
+
+Example:
+```bash
+git commit
+```
+
+---
+
+## -m
+Adds a commit message.
+
+Example:
+```bash
+git commit -m "Added new feature"
+```
+
+---
+
+## -a
+Stages modified tracked files automatically.
+
+Example:
+```bash
+git commit -a
+```
+
+---
+
+## -am
+Stages tracked files and adds a commit message.
+
+Example:
+```bash
+git commit -am "Updated files"
+```
+
+---
+
+## branch
+Lists or creates branches.
+
+Example:
+```bash
+git branch
+```
+
+---
+
+## branch -a
+Shows all local and remote branches.
+
+Example:
+```bash
+git branch -a
+```
+
+---
+
+## branch -d
+Deletes a branch.
+
+Example:
+```bash
+git branch -d old-branch
+```
+
+---
+
+## merge
+Combines changes from one branch into another.
+
+Example:
+```bash
+git merge feature-branch
+```
